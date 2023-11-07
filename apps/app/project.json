@@ -84,6 +84,12 @@
           "codeCoverage": true
         }
       }
+    },
+    "serve-esbuild": {
+      "executor": "@clickup/ngx-esbuild:build",
+      "options": {
+        "serve": true
+      }
     }
   }
 }
